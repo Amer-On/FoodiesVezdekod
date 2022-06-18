@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodShopVezdekod</string>
+    <string name="category">Категория</string>
+    <string name="product_name">Название блюда</string>
+    <string name="product_weight">Вес г</string>
+    <string name="product_price">500</string>
+    <string name="product_old_price">800</string>
+</resources>

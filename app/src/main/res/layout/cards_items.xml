@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:id="@+id/product"
+        android:layout_width="167dp"
+        android:layout_height="290dp"
+        android:background="@color/gray_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/product_card"
+            android:layout_width="167.5dp"
+            android:layout_height="170dp"
+            android:src="@drawable/tom_yam" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textColor="@color/black"
+                android:text="@string/product_name"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/product_weight"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/product_weight"
+                android:textAlignment="textStart"
+                android:textSize="14sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/buy_button">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_circle_background"
+                    android:foreground="@drawable/ripple_circle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/product_price"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
