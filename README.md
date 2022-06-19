@@ -19,6 +19,7 @@ Android версии 6 так же должен поддерживаться
 # Базовая навигация по файлам
 ## Activities
 SplashScreenActivity.kt - активити для экрана запуска
+
 MainActivity.kt - главное активити
 
 ## categories
