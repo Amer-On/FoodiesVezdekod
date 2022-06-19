@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodShopVezdekod">
 
-        <activity android:name=".SplashScreenActivity"
+        <activity android:name=".SplashScreenActivity" android:screenOrientation="portrait"
             android:theme="@style/SplashScreenTheme" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

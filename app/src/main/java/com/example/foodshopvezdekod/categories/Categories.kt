@@ -10,19 +10,6 @@ class Categories {
 
     inner class Category (val id: Int, val name: String)
 
-//    init {
-//        var category = Category(0, "Роллы")
-//        categories.add(category)
-//
-//        category = Category(99, "Суши")
-//        categories.add(category)
-//
-//        category = Category(19, "Наборы")
-//        categories.add(category)
-//
-//        category = Category(23, "Горячие блюда")
-//        categories.add(category)
-//    }
 
     constructor(applicationContext: Context) {
         val jsonString: String? = readJsonToString(applicationContext, "categories.json")
